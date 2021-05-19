@@ -1,0 +1,108 @@
+.Me{
+    background-color: White;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        background-color: $base-color;
+        border-radius: 10px;
+        text-align: center;
+        color:$dark-sky;
+        padding: 5px;
+        font-weight: lighter;
+    }
+    textarea{
+        width: 100%;
+        height:100px;
+        background-color: #fff;
+        border: 1px solid $base-2ry;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        color : $dark-sky
+
+
+    }
+    textarea:focus{
+        outline: none !important;
+        border: 1px solid $sky;
+        color : $dark-sky
+
+    }
+    .choice{
+        width: 100%;
+        margin: 10px;
+        transition: all .5s ease-in-out;
+
+        label{
+            background-color: $base-color;
+            color: $sky;
+            font-weight: lighter;
+            border-radius: 40%;
+            padding: 2px 4px;
+            margin-right: 10px;
+        }
+       
+        input{
+            height: 30px;
+            width: 90%;
+            border: 1px solid $base-2ry;
+            border-radius: 5px;
+            color : $dark-sky
+
+        }
+        input:focus{
+            outline: none !important;
+            border: 1px solid $sky;
+            color : $dark-sky
+
+        
+        }
+    }
+    label{
+        background-color: $sky;
+        align-self: flex-start;
+        color: white;
+        font-weight: lighter;
+        margin: 10px 0px;
+        border-radius: 7px;
+        padding: 5px;
+    }
+    .key__words{
+        width: 100%;
+        display: flex;
+        justify-content:flex-start ;
+        input{
+            width: 73%;
+            margin-left: 10px;
+            border: 1px solid $sky;
+            border-radius: 7px;
+            color : $dark-sky
+
+
+        }
+        input:focus{
+            outline: none !important;
+            border: 1px solid $sky;
+            color : $dark-sky
+        
+        }
+    }
+.dropZone{
+    width: 100%;
+    padding : 15px;
+    .hint{
+        border: 4px dashed $baby-pink;
+        padding: 5px;
+        border-radius: 7px;
+        color: $dark-sky;
+        background-color: white;
+        
+    }
+}
+    
+
+}
